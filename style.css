@@ -43,3 +43,71 @@ header, footer {
 }
 
 /* ECRIVEZ VOTRE CODE CI-DESSOUS */
+html{
+  font-family: serif;
+  font-size: 10px;
+}
+h1{
+  text-align: center;
+}
+h1,h2{
+  font-family: sans-serif;
+  letter-spacing: 1px;
+
+}
+h1{
+  font-size: 3em;
+  ;
+}
+h2{
+  font-size: 2em;
+
+}
+section p::first-line{
+  text-indent:20px;
+}
+p,li{
+  font-size:1em;
+  line-height: 1em;
+  word-spacing: 3px;
+}
+a{
+  outline: none;
+}
+a:link,a:visited{
+  color:#a66;
+}
+a:focus,a:hover{
+  text-decoration: none;
+}
+a:active{
+  color:transparent;
+}
+a[href*="http"]{
+  padding-right: 15px;
+  background:url(external-link-52.png) no-repeat 100%;
+  background-size: 10px 10px;
+}
+section ul{
+  list-style-type: square;
+}
+nav li{
+  list-style-type: none;
+}
+
+nav li a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  line-height: 2;
+  text-align: center;
+  font-size: 2em;
+  border: 2px solid #a66;
+  }
+  nav,li{
+    margin-bottom: 1em;
+  }
+  nav li a:focus, nav li a:hover {
+    color: white;
+    background: #a66;
+  }
